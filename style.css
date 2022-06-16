@@ -1,0 +1,502 @@
+/*Essa é a regra global do css, ela irá definir valores que se aplicarão a todo o código sendo eles: 'margin', que define a área da margem nos quatro lados como 0. 'Border' que adicionaria um contorno ao redor dele sendo 0 pixels. 'Padding' que define o preenchimento da tela como 0 e ainda o 'box-sizing' selecionado como border-box, em que a largura do conteúdo é determinada pelo tamanho do monitor.*/
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Nesse bloco, definimos várias propriedades que se aplicam aos títulos h1, h2, h4, h5 e h6. Seriam elas o 'font-weight', que vai definir um valor, aqui usamos 400, para deixar os caracteres mais grossos ou finos no texto. O 'font-size', que delimita o tamanho do texto, nesse caso em 36 pixels. O 'font-family', que seleciona a fonte Arial, sans-serif para esses títulos. O 'letter-spacing', que atribuirá um espaçamento de 2 pixels entre as letras, e o 'display flex' aliado ao 'justify-content' que tornarão esses blocos de texto flexíveis e os alinharão ao centro dele.*/
+h1, h2, h4, h5, h6 {
+  font-weight: 400;
+  font-size: 36px;
+  font-family: Arial,sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*Essa propriedade vai definir a fonte Verdana, sans-serif para qualquer parágrafo que não tenha uma classe atribuída a ele.*/
+p {
+  font-family: Verdana, sans-serif;
+}
+
+
+/*Nesse bloco definimos a estilização para os links presentes na página com as seguintes propriedades: 'text-decoration' como none, isso criará uma decoração para o texto do link, nesse caso, tira o seu sublinhado. 'Color' vai selecionar a cor branca para a fonte. O 'font-size' delimita o tamanho do texto, aqui em 15 pixels. O 'Padding' define a distância entre o link e suas bordas como 16 pixels. O 'font-family' seleciona a fonte Verdana, sans-serif para os links. O 'display flex' aliado ao 'justify-content' tornarão esses blocos de texto flexíveis e os alinharão ao centro dele e por fim, o 'text-align' define que o texto desses links devem ficar posicionados no centro do bloco.*/
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 16px;
+  font-family: Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/*Nessa classe temos que, a propriedade 'width' define a largura do elemento como 616 pixels e o 'height' define sua altura como 500 pixels.*/
+.cont1 {
+  width: 616px;
+  height: 500px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'width' define a largura do elemento como 500 pixels e o 'height' define sua altura como 500 pixels.*/
+.cont2 {
+  width: 500px;
+  height: 500px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'width' define a largura do elemento como 646 pixels, o 'height' define sua altura como 616 pixels e o 'text-align' afirma que o texto do bloco deve ficar posicionado no centro.*/
+.cont3 {
+  width: 646px;
+  height: 616px;
+  text-align: center;
+}
+
+
+/*Nessa classe temos que, a propriedade 'width' define a largura do elemento como 617 pixels, o 'height' define sua altura como 600 pixels e o 'font-size' delimita o tamanho do texto, aqui em 20 pixels.*/
+.cont4 {
+  width: 617px;
+  height: 600px;
+  font-size: 20px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'width' define a largura do elemento como 617 pixels, o 'height' define sua altura como 616 pixels e o 'padding' define a distância entre o elemento e suas bordas como 64 pixels.*/
+.cont5 {
+  width: 617px;
+  height: 616px;
+  padding: 64px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'padding' define a distância entre o elemento e suas bordas como 20 pixels.*/
+.cont6 {
+  padding: 20px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'font-weight' vai definir um valor, aqui usamos 400, para deixar os caracteres mais grossos ou finos no texto. O 'font-size' delimita o tamanho do texto, nesse caso em 36 pixels. O 'font-family' seleciona a fonte Arial, sans-serif para esse bloco. O 'padding' define a distância entre o elemento e suas bordas como 20 pixels. O 'width' delimita a largura do elemento como 300 pixels. O 'text-align' afirma que o texto do bloco deve ficar posicionado no centro e o 'margin-left' define a área da margem do lado esquerdo como tendo 150 pixels.*/
+.titulo1 {
+  font-weight: 400;
+  font-size: 36px;
+  font-family: Arial,sans-serif;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  margin-left: 150px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'text-align' afirma que o texto do bloco deve ficar posicionado no centro. O 'margin' define a área da margem nos quatro lados como tendo 20 pixels e o 'font-size' delimita o tamanho do texto, nesse caso em 30 pixels.*/
+.titulo3 {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'padding' define a distância entre o elemento e suas bordas como 10 pixels.*/
+.titulotexto3 {
+padding: 10px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'padding' define a distância entre o elemento e suas bordas como 64 pixels e a 'margin-bottom' define a área da margem de baixo como tendo 70 pixels.*/
+.titulo5 {
+  padding: 64px;
+  margin-bottom: 70px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'font-weight' vai definir um valor, aqui usamos 400, para deixar os caracteres mais grossos ou finos no texto. O 'font-size' delimita o tamanho do texto, nesse caso em 36 pixels. O 'font-family' seleciona a fonte Arial, sans-serif para esse bloco e a 'margin-bottom' define a área da margem de baixo como tendo 25 pixels.*/
+.titulo6 {
+  font-weight: 400;
+  font-size: 36px;
+  font-family: Arial,sans-serif;
+  margin-bottom: 25px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'display flex' aliada ao 'justify-content' tornará esse bloco de texto flexível e o alinhará ao centro dele.*/
+.texto2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*Nessa classe temos que, a propriedade 'text-align' afirma que o texto do bloco deve ficar posicionado no centro. A 'margin' define a área da margem nos quatro lados como tendo 15 pixels e a 'margin-bottom' define a área da margem de baixo como tendo 20 pixels.*/
+.texto3-1 {
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 20px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'margin' define a área da margem nos quatro lados como tendo 15 pixels.*/
+.textofim3 {
+  margin: 15px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'color' vai selecionar a cor verde claro para a fonte e a 'margin-bottom' define a área da margem de baixo como tendo 20 pixels.*/
+.texto6 {
+  color: #93ccc7;
+  margin-bottom: 20px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'border-radius' define o raio dos cantos do bloco como 100%, logo, ele ficará redondo. O 'width' delimita a largura do elemento como 300 pixels. O 'display block' faz com que o elemento seja renderizado em blocos, mas aliado a 'margin-left' e 'margin-right' auto, significa que as margens automáticas na esquerda e na direita irão centralizar o bloco horizontalmente na tela.*/
+.img_redonda{
+  border-radius: 100%;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*Nessa classe temos que, a propriedade 'display flex' aliada ao 'justify-content' tornará esse bloco flexível e o alinhará ao centro dele. O 'position relative' é usado para posicionar o bloco de acordo com as indicações que forem definidas e aliado ao 'margin' sendo 0 auto, o centralizamos dentro do elemento pai. O 'width' define a largura do elemento como 100 pixels e o 'height' define sua altura como 730 pixels.*/
+.my_logo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+  height: 730px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'background' definirá como preto a cor de fundo do bloco. O 'padding' define a distância entre o elemento e suas bordas como 15 pixels. A 'Color' vai selecionar a cor branca para a fonte e o 'display flex' aliado ao 'align-items' tornará esse bloco flexível e o alinhará ao centro dele.*/
+.my_logo1 {
+    background: #000000;
+    padding: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+/*Nessa classe temos que, a propriedade 'background' definirá como cinza a cor de fundo do bloco. O 'padding' define a distância entre o elemento e suas bordas como 73 pixels. A 'Color' vai selecionar a cor branca para a fonte e o 'display flex' aliado ao 'align-items' tornará esse bloco flexível e o alinhará ao centro dele.*/
+.my_logo2 {
+    background: #607d8b;
+    padding: 73px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+
+/*Aqui temos uma classe aliada a um hover, que é usado para criar uma mudança nos aspectos do elemento quando posicionamos o cursor do mouse sobre ele. Então nele inserimos a propriedade 'width' que delimita a largura do elemento como estando em 100% do bloco. O 'background' que definirá como azul escuro a cor de fundo do bloco. A 'color' que vai selecionar a cor branca para a fonte. A 'font-size' que delimita o tamanho do texto, nesse caso em 15 pixels e o 'padding' que define a distância entre o elemento e suas bordas como 16 pixels.*/
+.blink1:hover {
+    width: 100%;
+    background: #607d8b;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 16px;
+}
+
+
+/*Aqui temos uma classe aliada a um hover, que é usado para criar uma mudança nos aspectos do elemento quando posicionamos o cursor do mouse sobre ele. Então nele inserimos a propriedade 'width' que delimita a largura do elemento como estando em 100% do bloco. O 'background' que definirá como verde a cor de fundo do bloco. A 'color' que vai selecionar a cor branca para a fonte. A 'font-size' que delimita o tamanho do texto, nesse caso em 15 pixels e o 'padding' que define a distância entre o elemento e suas bordas como 16 pixels.*/
+.blink2:hover {
+    width: 100%;
+    background: #009688;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 16px;
+}
+
+
+/*Aqui temos uma classe aliada a um hover, que é usado para criar uma mudança nos aspectos do elemento quando posicionamos o cursor do mouse sobre ele. Então nele inserimos a propriedade 'width' que delimita a largura do elemento como estando em 100% do bloco. O 'background' que definirá como cinza a cor de fundo do bloco. A 'color' que vai selecionar a cor branca para a fonte. A 'font-size' que delimita o tamanho do texto, nesse caso em 15 pixels e o 'padding' que define a distância entre o elemento e suas bordas como 16 pixels.*/
+.blink3:hover {
+    width: 100%;
+    background: #616161;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 16px;
+}
+
+
+/*Aqui temos uma classe aliada a um hover, que é usado para criar uma mudança nos aspectos do elemento quando posicionamos o cursor do mouse sobre ele. Então nele inserimos a propriedade 'width' que delimita a largura do elemento como estando em 100% do bloco. O 'background' que definirá como marrom a cor de fundo do bloco. A 'color' que vai selecionar a cor branca para a fonte. A 'font-size' que delimita o tamanho do texto, nesse caso em 15 pixels e o 'padding' que define a distância entre o elemento e suas bordas como 16 pixels.*/
+.blink4:hover {
+    width: 100%;
+    background: #795548;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 16px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'padding' define a distância entre o elemento e suas bordas tendo 64 pixels em cima e embaixo e 0 pixels a direita e a esquerda.*/
+.botoest {
+  padding: 64px 0px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'display flex' aliada ao 'justify-content' tornará esse bloco flexível e o alinhará ao centro dele. O 'position relative' é usado para posicionar o bloco de acordo com as indicações que forem definidas e aliado ao 'margin' sendo 0 auto, o centralizamos dentro do elemento pai. O 'margin-top' tendo -30 pixels é usado para negar parte do padding no bloco. O 'width' define a largura do elemento como 100 pixels e o 'height' define sua altura como 760 pixels.*/
+.mywork {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -30px;
+  width: 100px;
+  height: 760px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'background' definirá como branco a cor de fundo do bloco. A 'Color' vai selecionar a cor preta para a fonte e o 'display flex' aliado ao 'align-items' tornará esse bloco flexível e o alinhará ao centro dele.*/
+.mywork_1 {
+    background: #f1f1f1;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+
+/*Nessa classe temos que, a propriedade 'position relative' é usada para posicionar o bloco de acordo com as indicações que forem definidas. O 'background' definirá como roxo a cor de fundo do bloco. A 'color' vai selecionar a cor branca para a fonte. O 'padding' define a distância entre o elemento e suas bordas tendo 15 pixels e o 'display flex' aliado ao 'align-items' tornará esse bloco flexível e o alinhará ao centro dele.*/
+.mywork_2 {
+    position: relative;
+    background: #3f51b5;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+/*Nessa classe temos que, a propriedade 'align-items' alinhará o bloco ao centro.*/
+.geralimg {
+  align-items: center;
+}
+
+
+/*Nessa classe temos que, a propriedade 'display flex' aliada ao 'align-items' tornará esse bloco flexível e o alinhará ao centro dele. O 'width' define a largura do elemento como 324 pixels e o 'flex-wrap' define que os itens flexíveis podem ser quebrados em varias linhas.*/
+img {
+  display: flex;
+  align-items: center;
+  width: 324px;
+  flex-wrap: wrap;
+}
+
+
+/*Nessa classe temos que, a propriedade 'display flex' aliada ao 'align-items' tornará esse bloco flexível e o alinhará ao centro dele e o 'width' define a largura do elemento como 100 pixels.*/
+.imagensDD {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+/*Nessa classe temos que, a propriedade 'display flex' aliada ao 'align-items' tornará esse bloco flexível e o alinhará ao centro dele e o 'width' define a largura do elemento como 100 pixels.*/
+.imagensDD2 {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+/*Nessa classe temos que, a propriedade 'display flex' aliada ao 'align-items' tornará esse bloco flexível e o alinhará ao centro dele e o 'width' define a largura do elemento como 100 pixels.*/
+.imagensDD3 {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'display flex' aliada ao 'justify-content' tornará esse bloco flexível e o alinhará ao centro dele. O 'position relative' é usado para posicionar o bloco de acordo com as indicações que forem definidas e aliado ao 'margin' sendo 0 auto, o centralizamos dentro do elemento pai. O 'width' define a largura do elemento como 100 pixels e o 'height' define sua altura como 700 pixels.*/
+.swing_By {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+  height: 700px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'position relative' é usada para posicionar o bloco de acordo com as indicações que forem definidas. O 'background' definirá como cinza a cor de fundo do bloco. A 'color' vai selecionar a cor branca para a fonte. O 'padding' define a distância entre o elemento e suas bordas tendo 15 pixels e o 'display flex' aliado ao 'align-items' tornará esse bloco flexível e o alinhará ao centro dele.*/
+.swing_By1 {
+    position: relative;
+    background: #616161;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+/*Nessa classe temos que, a propriedade 'background' definirá como verde a cor de fundo do bloco. A 'color' vai selecionar a cor branca para a fonte. O 'padding' define a distância entre o elemento e suas bordas tendo 3 pixels e o 'display flex' aliado ao 'align-items' tornará esse bloco flexível e o alinhará ao centro dele.*/
+.contato {
+    background: #009688;
+    color: white;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+} 
+
+
+/*Nessa classe temos que, a propriedade 'text-align' afirma que o texto do bloco deve ficar posicionado no centro. A 'margin-bottom' define a área da margem de baixo como tendo 20 pixels.*/
+.pchicago {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'font-family' seleciona a fonte Verdana, sans-serif para esse bloco. O 'font-size' delimita o tamanho do texto, nesse caso em 15 pixels. O 'background' definirá como branco a cor de fundo do bloco. O 'width' define a largura do elemento como 600 pixels e o 'height' define sua altura como 360 pixels. O 'padding' afirma que a distância entre o elemento e suas bordas tem 14 pixels e o 'box-shadow' anexa sombras as laterais do container com altura de 5 pixels, largura de 5 pixels e 15 pixels de blur sendo que a opacidade está em 0.2.*/
+.main-container {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  background: #ffffff;
+  width: 600px;
+  height: 360px;
+  padding: 14px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/*Para estilizar a tag do formulário temos que, a propriedade 'margin-top' define a área da margem de cima como tendo 30 pixels. O 'display flex' aliado ao 'justify-content' tornará esse bloco flexível e o alinhará ao centro dele e o 'flex-direction' especifica a direção dos itens flexíveis, nesse caso estarão exibidos verticalmente, como uma coluna.*/
+form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/*Nessa classe temos que, a propriedade 'position relative' é usada para posicionar o bloco de acordo com as indicações que forem definidas.*/
+.input-field {
+    position: relative;
+}
+
+
+/*Nessa classe temos que, a propriedade 'margin-bottom' define a área da margem de baixo como tendo 27 pixels.*/
+form .input-field {
+    margin-bottom: 27px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'content', usada para o pseudoelemento ::before, tem a função de gerar conteúdo em um elemento e nesse caso ela é vazia. O 'position absolute' define uma sobreposição aos outros tipos de posicionamento já que é absoluto e ele ficará em uma posição fixa que no entanto, pode ser alterada. O 'width' delimita a largura do elemento, nesse caso ocupando 100% do bloco e o 'height' define sua altura como 1 pixel. O 'margin-bottom' tendo -5 pixels é usado para negar parte do padding no bloco. O 'margin-left' define a área da margem da esquerda como tendo 0 pixels, por fim, o 'background' seleciona sua opacidade em em 0.2.*/
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    margin-bottom: -5px;
+    margin-left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+/*Nessa classe temos que, a propriedade 'outline none' tira o contorno ao redor do input. O 'font-size' delimita o tamanho do texto, nesse caso em 13 pixels. O 'width' delimita a largura do elemento, ocupando 100% do bloco e a 'color' seleciona a cor da fonte com opacidade em em 0.7.*/
+.input-field input {
+    outline: none;
+    font-size: 13px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+/*Nesse input do formulário referente ao botão submit temos que, a propriedade 'margin-right' define a área da margem da direita como tendo 14 pixels. O 'width' delimita a largura do elemento, nesse caso ocupando 13% do bloco e o 'height' define sua altura como 42 pixels. O 'background' definirá como verde a cor de fundo do bloco. A 'color' vai selecionar a cor branca para a fonte. O 'font-size' delimita o tamanho do texto, nesse caso em 14 pixels e o'font-weight' vai definir um valor, aqui usamos 500, para deixar os caracteres mais grossos ou finos no texto.*/
+form input[type="submit"] {
+    margin-right: 14px;
+    width: 13%;
+    height: 42px;
+    background:  #009688;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/*Nesse input do formulário referente ao botão submit temos um hover, que é usado para criar uma mudança nos aspectos do elemento quando posicionamos o cursor do mouse sobre ele. Então nele inserimos a propriedade 'background' que definirá como cinza claro a cor de fundo do bloco.*/
+form input[type="submit"]:hover {
+    background:  #b4b1b1;;
+}
+
+
+/*Nessa classe temos que, a propriedade 'display flex' aliada ao 'justify-content' tornará esse bloco flexível e o alinhará á extrema direita.*/
+.submitb {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/*Para as labels presentes na pagína atribuímos a propriedade 'color', que vai selecionar a cor preta para a fonte delas.*/
+label {
+  color: black;
+}
+
+
+/*Para os inputs presentes na pagína atribuímos a propriedade 'padding', que define a distância entre o elemento e suas bordas tendo 8 pixels.*/
+input {
+  padding: 8px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'display flex' tornará esse bloco flexível. O 'background' definirá como preto a cor de fundo do bloco. O 'padding' define a distância entre o elemento e suas bordas tendo 18 pixels. O 'position relative' é usado para posicionar o bloco de acordo com as indicações que forem definidas e aliado ao 'margin' sendo 0 auto, o centralizamos dentro do elemento pai, por fim, o 'width' define a largura do elemento como 1293 pixels.*/
+.rodape {
+  display: flex;
+  background: #000000;
+  padding: 18px;
+  position: relative;
+  margin: 0 auto;
+  width: 1293px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'font-size' delimita o tamanho do texto, nesse caso em 16 pixels e a 'margin-left' tendo -10 pixels é usada para negar parte do padding no bloco.*/
+.textorodape {
+  font-size: 16px;
+  margin-left: -10px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'background' definirá como branco a cor de fundo do bloco. A 'color' vai selecionar a cor preta para a fonte e a 'margin' vai definir a área da margem nos quatro lados como 10 pixels.*/
+.t1 {
+  background:  #ffffff;
+  color: black;
+  margin: 10px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'background' definirá como branco a cor de fundo do bloco. A 'color' vai selecionar a cor preta para a fonte e a 'margin' vai definir a área da margem nos quatro lados como 10 pixels.*/
+.t2 {
+  background:  #ffffff;
+  color: black;
+  margin: 10px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'background' definirá como branco a cor de fundo do bloco. A 'color' vai selecionar a cor preta para a fonte e a 'margin' vai definir a área da margem nos quatro lados como 10 pixels.*/
+.t3 {
+  background:  #ffffff;
+  color: black;
+  margin: 10px;
+}
+
+
+/*Na estilização da tag table temos que, a propriedade 'border-collapse' é usada para esconder a borda que divide cada linha da tabela. O 'font-family' seleciona a fonte Verdana, sans-serif para esse bloco. O 'font-size' delimita o tamanho do texto, nesse caso em 16 pixels e o 'padding' define a distância entre o elemento e suas bordas tendo 200 pixels.*/
+table {
+  border-collapse: collapse;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  padding: 200px;
+}
+
+
+/*Nessa classe temos que, a propriedade 'padding' define a distância entre o elemento e suas bordas tendo 7 pixels e o 'text-align' afirma que o texto do bloco deve ficar posicionado á esquerda.*/
+.titulotabela {
+  padding: 7px;
+  text-align: left;
+}
+
+
+/*Na estilização de cada cédula da tabela temos que, a propriedade 'padding' define a distância entre o elemento e suas bordas tendo 10 pixels.*/
+td {
+  padding: 10px;
+}
